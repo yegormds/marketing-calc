@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Marketing Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+  <!--HEADER -->
+  <!--HEADER -->
+  <!--HEADER -->
+  <!--HEADER -->
+
+  <header class="header">
+    <div class="container">
+      <div class="image">
+        <img class="img" src="logo-min1.png" alt="">
+      </div>
+      <div class="heading">
+        АНАЛИТИКА РЕКЛАМЫ
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <!-- MAIN CONTENT -->
+  <!-- MAIN CONTENT -->
+  <!-- MAIN CONTENT -->
+
+  <div class="container">
+    <div class="inputs_1">
+      <div class="input_txt">
+        Бюджет:
+      </div>
+      <input type="number" name="budget" id="budget" class="inputs_class">
+      <div class="input_txt">
+        Обращения:
+      </div>
+      <input type="number" name="budget" id="leads" class="inputs_class">
+    </div>
+    <div class="inputs_1">
+      <div class="input_txt">
+        Клики:
+      </div>
+      <input type="number" name="budget" id="clicks" class="inputs_class">
+      <div class="input_txt">
+        Заказы:
+      </div>
+      <input type="number" name="budget" id="sales" class="inputs_class">
+    </div>
+  </div>
+
+  <!-- BUTTONS CPL CPC CPS -->
+  <!--
+  <div class="container">
+    <div class="calculate_buttons">
+      <div class="button">
+        <input type="button" onclick="cpl()" name="result" id="cpl_btn" value="Цена Обращения">
+      </div>
+      <div class="button">
+        <input type="button" onclick="cpc()" name="result" id="cpc_btn" value="Цена Клика">
+      </div>
+      <div class="button">
+        <input type="button" onclick="cps()" name="result" id="cps_btn" value="Цена Заказа">
+      </div>
+    </div>
+  </div>
+-->
+  <!-- RESULTS CPL CPC CPS -->
+  <!--
+  <div class="container">
+    <div class="results_heading">
+      Результаты отдельно:
+    </div>
+    <div class="cpl_cpc_cps_results">
+      <div class="cpl_result" id="cpl_result">
+
+      </div>
+      <div class="cpc_result" id="cpc_result">
+
+      </div>
+      <div class="cps_result" id="cps_result">
+
+      </div>
+    </div>
+  </div>
+-->
+  <!-- CALCULATE ALL BUTTON -->
+
+  <div class="container">
+    <div class="calculate_all_button">
+      <div class="button_all">
+        <input type="button" onclick="calculate_all()" name="result" id="all_btn" value="Посчитать показатели">
+      </div>
+    </div>
+  </div>
+
+  <!-- CALCULATE ALL TEXT -->
+
+  <div class="container">
+    <div class="results_heading_with_btn">
+      <div class="results_all_heading">
+        Вот результаты:
+      </div>
+      <div class="delete_button" id="delete_button">
+        <input type="button" onclick="deleteResults()" name="result" class="delete_btn" id="delete_btn" value="Очистить">
+      </div>
+    </div>
+    <div class="results_all_text">
+      <div class="results_all_txt" id="cpl_result_all">
+
+      </div>
+      <div class="results_all_txt" id="cpc_result_all">
+
+      </div>
+      <div class="results_all_txt" id="cps_result_all">
+
+      </div>
+      <div class="results_all_txt" id="sales_conversion_all">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ANALYZ -->
+
+  <div class="container">
+    <div class="analyz_buttton_zone">
+      <div class="analyz_button" id="analyz_button">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="results_after_analyz">
+
+    </div>
+  </div>
+
+</body>
+
+</html>

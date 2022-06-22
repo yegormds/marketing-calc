@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.image {
+  text-align: center;
+}
+
+.img {
+
+}
+
+.heading {
+  margin-top: 20px;
+  text-align: center;font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.inputs_1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.input_txt {
+  margin-right: 10px;
+}
+
+.inputs_class {
+  padding-right: 5px;
+}
+
+.calculate_buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.button {
+  margin-right: 15px;
+}
+
+.results_heading {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.delete_button {
+  text-align: center;
+}
+
+.delete_btn {
+  margin-top: 10px;
+}
+
+.cpl_cpc_cps_results {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.calculate_all_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.results_all_heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.results_all_text {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.results_all_txt {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.analyz_button_zone {
+  text-align: center;
+}
+
+.analyz_button {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#analyz_btn {
+  justify-content: center;
+}
