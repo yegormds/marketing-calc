@@ -103,3 +103,27 @@
 #analyz_btn {
   justify-content: center;
 }
+
+.results_after_analyz {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.analyzRes {
+  padding-right: 10px;
+}
+
+.res_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.solve_container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.solve__zone {
+  margin-bottom: 10px;
+}
